@@ -26,8 +26,8 @@ def callback():
     if (userText == "สวัสดี') :
         sendText(user,'ดีไอเวร')
     elif (userText == 'สบายดีไหม') :
-        sendText(user,'ยังไม่ตายค่ะ')
-       sendText(user,'ว่าอะไรค่ะ.)
+        sendText(user,'ยังไม่ตาย')
+       sendText(user,'ว่าอะไร.)
     return '',200
   
     r = requests.post(LINE_API, headers=headers, data=data) # ส่งข้อมูล
